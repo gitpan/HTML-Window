@@ -1,0 +1,24 @@
+---
+name: HTML-Window
+version: 0.27
+author:
+  - 'Dirk Lindner <lze@cpan.org>'
+abstract: 'Produce a move-,resize-,collapse- and closeable Html Window'
+license: lgpl
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+requires:
+  CGI::QuickApp: '>=0.25'
+  Module::Build: 0.2808
+  Template::Quick: '>=0.25'
+  Test::More: 0.7
+  Test::Pod: 1.26
+  Test::Pod::Coverage: 0.55
+provides:
+  HTML::Window:
+    file: lib/HTML/Window.pm
+    version: 0.27
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
